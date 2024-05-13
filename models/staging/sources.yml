@@ -1,0 +1,617 @@
+version: 2
+sources:
+- name: source_tables
+  schema: source_tables
+  tables:
+  - name: Appt_Practice_Level_Crosstab_Apr_23
+    description: Appt_Practice_Level_Crosstab_Apr_23
+  - name: Appt_Practice_Level_Crosstab_Aug_22
+    description: Appt_Practice_Level_Crosstab_Aug_22
+  - name: Appt_Practice_Level_Crosstab_Aug_23
+    description: Appt_Practice_Level_Crosstab_Aug_23
+  - name: Appt_Practice_Level_Crosstab_Dec_22
+    description: Appt_Practice_Level_Crosstab_Dec_22
+  - name: Appt_Practice_Level_Crosstab_Dec_23
+    description: Appt_Practice_Level_Crosstab_Dec_23
+  - name: Appt_Practice_Level_Crosstab_Feb_23
+    description: Appt_Practice_Level_Crosstab_Feb_23
+  - name: Appt_Practice_Level_Crosstab_Feb_24
+    description: Appt_Practice_Level_Crosstab_Feb_24
+  - name: Appt_Practice_Level_Crosstab_Jan_23
+    description: Appt_Practice_Level_Crosstab_Jan_23
+  - name: Appt_Practice_Level_Crosstab_Jan_24
+    description: Appt_Practice_Level_Crosstab_Jan_24
+  - name: Appt_Practice_Level_Crosstab_Jul_23
+    description: Appt_Practice_Level_Crosstab_Jul_23
+  - name: Appt_Practice_Level_Crosstab_Jun_23
+    description: Appt_Practice_Level_Crosstab_Jun_23
+  - name: Appt_Practice_Level_Crosstab_Mar_23
+    description: Appt_Practice_Level_Crosstab_Mar_23
+  - name: Appt_Practice_Level_Crosstab_Mar_24
+    description: Appt_Practice_Level_Crosstab_Mar_24
+  - name: Appt_Practice_Level_Crosstab_May_23
+    description: Appt_Practice_Level_Crosstab_May_23
+  - name: Appt_Practice_Level_Crosstab_Nov_22
+    description: Appt_Practice_Level_Crosstab_Nov_22
+  - name: Appt_Practice_Level_Crosstab_Nov_23
+    description: Appt_Practice_Level_Crosstab_Nov_23
+  - name: Appt_Practice_Level_Crosstab_Oct_22
+    description: Appt_Practice_Level_Crosstab_Oct_22
+  - name: Appt_Practice_Level_Crosstab_Oct_23
+    description: Appt_Practice_Level_Crosstab_Oct_23
+  - name: Appt_Practice_Level_Crosstab_Sep_22
+    description: Appt_Practice_Level_Crosstab_Sep_22
+  - name: Appt_Practice_Level_Crosstab_Sep_23
+    description: Appt_Practice_Level_Crosstab_Sep_23
+  - name: General_Practice_Workforce_December_2016_Practice_Level
+    description: General_Practice_Workforce_December_2016_Practice_Level
+  - name: General_Practice_Workforce_December_2017_Practice_Level
+    description: General_Practice_Workforce_December_2017_Practice_Level
+  - name: General_Practice_Workforce_December_2018_Practice_Level
+    description: General_Practice_Workforce_December_2018_Practice_Level
+  - name: General_Practice_Workforce_December_2019_Practice_Level
+    description: General_Practice_Workforce_December_2019_Practice_Level
+  - name: General_Practice_Workforce_December_2020_Practice_level
+    description: General_Practice_Workforce_December_2020_Practice_level
+  - name: General_Practice_Workforce_December_2021_Practice_Level
+    description: General_Practice_Workforce_December_2021_Practice_Level
+  - name: General_Practice_Workforce_December_2022_Practice_Level
+    description: General_Practice_Workforce_December_2022_Practice_Level
+  - name: General_Practice_Workforce_December_2023_Practice_Level_Detailed
+    description: General_Practice_Workforce_December_2023_Practice_Level_Detailed
+  - name: General_Practice_Workforce_June_2017_Practice_Level
+    description: General_Practice_Workforce_June_2017_Practice_Level
+  - name: General_Practice_Workforce_June_2018_Practice_Level
+    description: General_Practice_Workforce_June_2018_Practice_Level
+  - name: General_Practice_Workforce_June_2019_Practice_Level
+    description: General_Practice_Workforce_June_2019_Practice_Level
+  - name: General_Practice_Workforce_June_2020_Practice_level
+    description: General_Practice_Workforce_June_2020_Practice_level
+  - name: General_Practice_Workforce_June_2021_Practice_Level
+    description: General_Practice_Workforce_June_2021_Practice_Level
+  - name: General_Practice_Workforce_June_2022_Practice_Level
+    description: General_Practice_Workforce_June_2022_Practice_Level
+  - name: General_Practice_Workforce_June_2023_Practice_Level_Detailed
+    description: General_Practice_Workforce_June_2023_Practice_Level_Detailed
+  - name: General_Practice_Workforce_March_2016_Practice_Level
+    description: General_Practice_Workforce_March_2016_Practice_Level
+  - name: General_Practice_Workforce_March_2017_Practice_Level
+    description: General_Practice_Workforce_March_2017_Practice_Level
+  - name: General_Practice_Workforce_March_2018_Practice_Level
+    description: General_Practice_Workforce_March_2018_Practice_Level
+  - name: General_Practice_Workforce_March_2019_Practice_Level
+    description: General_Practice_Workforce_March_2019_Practice_Level
+  - name: General_Practice_Workforce_March_2020_Practice_level
+    description: General_Practice_Workforce_March_2020_Practice_level
+  - name: General_Practice_Workforce_March_2021_Practice_level
+    description: General_Practice_Workforce_March_2021_Practice_level
+  - name: General_Practice_Workforce_March_2022_Practice_Level
+    description: General_Practice_Workforce_March_2022_Practice_Level
+  - name: General_Practice_Workforce_March_2023_Practice_Level_Detailed
+    description: General_Practice_Workforce_March_2023_Practice_Level_Detailed
+  - name: General_Practice_Workforce_March_2024_Practice_Level_Detailed
+    description: General_Practice_Workforce_March_2024_Practice_Level_Detailed
+  - name: General_Practice_Workforce_September_2015_Practice_Level
+    description: General_Practice_Workforce_September_2015_Practice_Level
+  - name: General_Practice_Workforce_September_2016_Practice_Level
+    description: General_Practice_Workforce_September_2016_Practice_Level
+  - name: General_Practice_Workforce_September_2017_Practice_Level
+    description: General_Practice_Workforce_September_2017_Practice_Level
+  - name: General_Practice_Workforce_September_2018_Practice_Level
+    description: General_Practice_Workforce_September_2018_Practice_Level
+  - name: General_Practice_Workforce_September_2019_Practice_Level
+    description: General_Practice_Workforce_September_2019_Practice_Level
+  - name: General_Practice_Workforce_September_2020_Practice_level
+    description: General_Practice_Workforce_September_2020_Practice_level
+  - name: General_Practice_Workforce_September_2021_Practice_Level
+    description: General_Practice_Workforce_September_2021_Practice_Level
+  - name: General_Practice_Workforce_September_2022_Practice_Level
+    description: General_Practice_Workforce_September_2022_Practice_Level
+  - name: General_Practice_Workforce_September_2023_Practice_Level_Detailed
+    description: General_Practice_Workforce_September_2023_Practice_Level_Detailed
+  - name: GPPS_2018_List_of_reporting_variables
+    description: GPPS_2018_List_of_reporting_variables
+  - name: GPPS_2018_Practice_data_weighted
+    description: GPPS_2018_Practice_data_weighted
+  - name: GPPS_2019_List_of_reporting_variables
+    description: GPPS_2019_List_of_reporting_variables
+  - name: GPPS_2019_Practice_data_weighted
+    description: GPPS_2019_Practice_data_weighted
+  - name: GPPS_2020_List_of_reporting_variables
+    description: GPPS_2020_List_of_reporting_variables
+  - name: GPPS_2020_Practice_data_weighted
+    description: GPPS_2020_Practice_data_weighted
+  - name: GPPS_2021_List_of_reporting_variables
+    description: GPPS_2021_List_of_reporting_variables
+  - name: GPPS_2021_Practice_data_weighted
+    description: GPPS_2021_Practice_data_weighted
+  - name: GPPS_2022_List_of_reporting_variables
+    description: GPPS_2022_List_of_reporting_variables
+  - name: GPPS_2022_Practice_data_weighted
+    description: GPPS_2022_Practice_data_weighted
+  - name: GPPS_2023_List_of_reporting_variables
+    description: GPPS_2023_List_of_reporting_variables
+  - name: GPPS_2023_Practice_data_weighted
+    description: GPPS_2023_Practice_data_weighted
+  - name: GPPS_Dec_2012_List_of_reporting_variables
+    description: GPPS_Dec_2012_List_of_reporting_variables
+  - name: GPPS_Dec_2012_Practice_Level_Data_weighted
+    description: GPPS_Dec_2012_Practice_Level_Data_weighted
+  - name: GPPS_Dec_2013_List_of_reporting_variables
+    description: GPPS_Dec_2013_List_of_reporting_variables
+  - name: GPPS_Dec_2013_Practice_Level_Data_weighted
+    description: GPPS_Dec_2013_Practice_Level_Data_weighted
+  - name: GPPS_January_2015_List_of_report_variables
+    description: GPPS_January_2015_List_of_report_variables
+  - name: GPPS_January_2015_Practice_level_data_weighted
+    description: GPPS_January_2015_Practice_level_data_weighted
+  - name: GPPS_January_2016_List_of_reporting_variables
+    description: GPPS_January_2016_List_of_reporting_variables
+  - name: GPPS_January_2016_Practice_level_weighted
+    description: GPPS_January_2016_Practice_level_weighted
+  - name: GPPS_July_2014_List_of_reporting_variables
+    description: GPPS_July_2014_List_of_reporting_variables
+  - name: GPPS_July_2014_Practice_level_data_weighted
+    description: GPPS_July_2014_Practice_level_data_weighted
+  - name: GPPS_July_2015_List_of_report_variables
+    description: GPPS_July_2015_List_of_report_variables
+  - name: GPPS_July_2015_Practice_level_data_weighted
+    description: GPPS_July_2015_Practice_level_data_weighted
+  - name: GPPS_July_2016_List_of_reporting_variables
+    description: GPPS_July_2016_List_of_reporting_variables
+  - name: GPPS_July_2016_Practice_level_data_weighted_CSV
+    description: GPPS_July_2016_Practice_level_data_weighted_CSV
+  - name: GPPS_June_2013_List_of_reporting_variables
+    description: GPPS_June_2013_List_of_reporting_variables
+  - name: GPPS_June_2013_Practice_Level_Data_weighted
+    description: GPPS_June_2013_Practice_Level_Data_weighted
+  - name: GP_indicators_East_of_England_1718_2223
+    description: GP_indicators_East_of_England_1718_2223
+  - name: GP_indicators_London_1718_2223
+    description: GP_indicators_London_1718_2223
+  - name: GP_indicators_Midlands_1718_2223
+    description: GP_indicators_Midlands_1718_2223
+  - name: GP_indicators_North_East_Yorkshire_2223
+    description: GP_indicators_North_East_Yorkshire_2223
+  - name: GP_indicators_North_West_1718_2223
+    description: GP_indicators_North_West_1718_2223
+  - name: GP_indicators_South_East_1718_2223
+    description: GP_indicators_South_East_1718_2223
+  - name: GP_indicators_South_West_1718_2223
+    description: GP_indicators_South_West_1718_2223
+  - name: I02040_Compendium_Readmissions_Dataset_Main_2023
+    description: I02040_Compendium_Readmissions_Dataset_Main_2023
+  - name: I02041_Compendium_Readmissions_Dataset_Diagnosis_2023
+    description: I02041_Compendium_Readmissions_Dataset_Diagnosis_2023
+  - name: I02042_Compendium_Readmissions_Dataset_Procedure_2023
+    description: I02042_Compendium_Readmissions_Dataset_Procedure_2023
+  - name: I02043_Reason_for_Emergency_Readmission_Dataset_2023
+    description: I02043_Reason_for_Emergency_Readmission_Dataset_2023
+  - name: nhspaymentsgp_15_16_csv
+    description: nhspaymentsgp_15_16_csv
+  - name: nhspaymentsgp_16_17_csv
+    description: nhspaymentsgp_16_17_csv
+  - name: nhspaymentsgp_17_18_csv
+    description: nhspaymentsgp_17_18_csv
+  - name: nhspaymentsgp_18_19_csv
+    description: nhspaymentsgp_18_19_csv
+  - name: nhspaymentsgp_19_20_prac_csv
+    description: nhspaymentsgp_19_20_prac_csv
+  - name: nhspaymentsgp_20_21_prac_csv
+    description: nhspaymentsgp_20_21_prac_csv
+  - name: nhspaymentsgp_21_22_prac_csv
+    description: nhspaymentsgp_21_22_prac_csv
+  - name: nhspaymentsgp_22_23_prac_csv
+    description: nhspaymentsgp_22_23_prac_csv
+  - name: NHS_App_2021_UsageLocation_TimeSeries_Full_Data_data_Oct2021
+    description: NHS_App_2021_UsageLocation_TimeSeries_Full_Data_data_Oct2021
+  - name: NHS_App_2022_UsageLocation_TimeSeries_Full_Data_data_Feb2022
+    description: NHS_App_2022_UsageLocation_TimeSeries_Full_Data_data_Feb2022
+  - name: NHS_App_21_22_Registered_users__Full_Data_data
+    description: NHS_App_21_22_Registered_users__Full_Data_data
+  - name: NHS_App_April_2024_update
+    description: NHS_App_April_2024_update
+  - name: NHS_App_December_2023_update
+    description: NHS_App_December_2023_update
+  - name: nhs_gp_digital_indicators_2015_2016
+    description: nhs_gp_digital_indicators_2015_2016
+  - name: nhs_gp_digital_indicators_2016_2017
+    description: nhs_gp_digital_indicators_2016_2017
+  - name: nhs_gp_digital_indicators_2017_2018
+    description: nhs_gp_digital_indicators_2017_2018
+  - name: nhs_gp_digital_indicators_2018_2019
+    description: nhs_gp_digital_indicators_2018_2019
+  - name: nhs_gp_digital_indicators_2019_2020
+    description: nhs_gp_digital_indicators_2019_2020
+  - name: nhs_gp_digital_indicators_2020_2021
+    description: nhs_gp_digital_indicators_2020_2021
+  - name: nhs_gp_digital_indicators_2021_2022
+    description: nhs_gp_digital_indicators_2021_2022
+  - name: nhs_gp_digital_indicators_2022_2023
+    description: nhs_gp_digital_indicators_2022_2023
+  - name: nhs_gp_emergency_admission_indicators_east_of_eng
+    description: nhs_gp_emergency_admission_indicators_east_of_eng
+  - name: nhs_gp_emergency_admission_indicators_london
+    description: nhs_gp_emergency_admission_indicators_london
+  - name: nhs_gp_emergency_admission_indicators_midlands
+    description: nhs_gp_emergency_admission_indicators_midlands
+  - name: nhs_gp_emergency_admission_indicators_north_east
+    description: nhs_gp_emergency_admission_indicators_north_east
+  - name: nhs_gp_emergency_admission_indicators_north_west
+    description: nhs_gp_emergency_admission_indicators_north_west
+  - name: nhs_gp_emergency_admission_indicators_south_east
+    description: nhs_gp_emergency_admission_indicators_south_east
+  - name: nhs_gp_emergency_admission_indicators_south_west
+    description: nhs_gp_emergency_admission_indicators_south_west
+  - name: ods_CCG_ICB_COUNCIL_REGION_2022
+    description: ods_CCG_ICB_COUNCIL_REGION_2022
+  - name: ods_ecarehomehq
+    description: ods_ecarehomehq
+  - name: ods_ecarehomesite
+    description: ods_ecarehomesite
+  - name: ods_ect
+    description: ods_ect
+  - name: ods_ectsite
+    description: ods_ectsite
+  - name: ods_epraccur
+    description: ods_epraccur
+  - name: ods_etr
+    description: ods_etr
+  - name: ods_ets
+    description: ods_ets
+  - name: ods_succ
+    description: ods_succ
+  - name: ods_succarc
+    description: ods_succarc
+  - name: PHE_2022_Trust_Catchment_Populations_Supplementary_MSOA_Analysis_ALL_ADMISSIONS
+    description: PHE_2022_Trust_Catchment_Populations_Supplementary_MSOA_Analysis_ALL_ADMISSIONS
+  - name: PHE_2022_Trust_Catchment_Populations_Supplementary_MSOA_Analysis_ELECTIVE
+    description: PHE_2022_Trust_Catchment_Populations_Supplementary_MSOA_Analysis_ELECTIVE
+  - name: PHE_2022_Trust_Catchment_Populations_Supplementary_MSOA_Analysis_EMERGENCY
+    description: PHE_2022_Trust_Catchment_Populations_Supplementary_MSOA_Analysis_EMERGENCY
+  - name: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_Area_lookup
+    description: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_Area_lookup
+  - name: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_Ethnicity
+    description: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_Ethnicity
+  - name: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_IMD_Scores
+    description: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_IMD_Scores
+  - name: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_successor_changes
+    description: PHE_2022_Trust_Catchment_Populations_Supplementary_Trust_successor_changes
+  - name: PHE_2022_Trust_Catchment_Populations_Worksheet_Summary
+    description: PHE_2022_Trust_Catchment_Populations_Worksheet_Summary
+  - name: POMI_15_17_BOOK_CANCEL_APPOINTMENTS_M12_V3
+    description: POMI_15_17_BOOK_CANCEL_APPOINTMENTS_M12_V3
+  - name: POMI_15_17_ORDER_REPEAT_PRESCRIPTIONS_M12_V3
+    description: POMI_15_17_ORDER_REPEAT_PRESCRIPTIONS_M12_V3
+  - name: POMI_APR2017_to_MAR2018
+    description: POMI_APR2017_to_MAR2018
+  - name: POMI_APR2018_to_SEP2018
+    description: POMI_APR2018_to_SEP2018
+  - name: POMI_APR2019_to_MAR2020
+    description: POMI_APR2019_to_MAR2020
+  - name: POMI_APR2020_to_MAR2021_v2
+    description: POMI_APR2020_to_MAR2021_v2
+  - name: POMI_APR2021_to_MAR2022
+    description: POMI_APR2021_to_MAR2022
+  - name: POMI_APR2022_to_MAR2023
+    description: POMI_APR2022_to_MAR2023
+  - name: POMI_APR2023_to_MAR2024
+    description: POMI_APR2023_to_MAR2024
+  - name: POMI_OCT2018_to_MAR2019
+    description: POMI_OCT2018_to_MAR2019
+  - name: qof_1314_practicereference
+    description: qof_1314_practicereference
+  - name: qof_1314_prevalencebyprac
+    description: qof_1314_prevalencebyprac
+  - name: qof_1415_practicereference
+    description: qof_1415_practicereference
+  - name: qof_1415_PREVALENCE_BY_PRAC_v2
+    description: qof_1415_PREVALENCE_BY_PRAC_v2
+  - name: qof_1516_ORGANISATION_REFERENCE
+    description: qof_1516_ORGANISATION_REFERENCE
+  - name: qof_1516_PREVALENCE
+    description: qof_1516_PREVALENCE
+  - name: qof_1617_ORGANISATION_REFERENCE
+    description: qof_1617_ORGANISATION_REFERENCE
+  - name: qof_1617_PREVALENCE
+    description: qof_1617_PREVALENCE
+  - name: qof_1718_ORGANISATION_REFERENCE
+    description: qof_1718_ORGANISATION_REFERENCE
+  - name: qof_1718_PREVALENCE
+    description: qof_1718_PREVALENCE
+  - name: qof_1819_ORGANISATION_REFERENCE_1819_v2
+    description: qof_1819_ORGANISATION_REFERENCE_1819_v2
+  - name: qof_1819_PREVALENCE_1819_v2
+    description: qof_1819_PREVALENCE_1819_v2
+  - name: qof_1920_MAPPING_NHS_GEOGRAPHIES_1920
+    description: qof_1920_MAPPING_NHS_GEOGRAPHIES_1920
+  - name: qof_1920_PREVALENCE_1920
+    description: qof_1920_PREVALENCE_1920
+  - name: qof_2021_MAPPING_NHS_GEOGRAPHIES_2021
+    description: qof_2021_MAPPING_NHS_GEOGRAPHIES_2021
+  - name: qof_2021_PREVALENCE_2021_v2
+    description: qof_2021_PREVALENCE_2021_v2
+  - name: qof_2122_MAPPING_NHS_GEOGRAPHIES_2122
+    description: qof_2122_MAPPING_NHS_GEOGRAPHIES_2122
+  - name: qof_2122_PREVALENCE_2122_V2
+    description: qof_2122_PREVALENCE_2122_V2
+  - name: qof_2223_MAPPING_NHS_GEOGRAPHIES_2223
+    description: qof_2223_MAPPING_NHS_GEOGRAPHIES_2223
+  - name: qof_2223_PREVALENCE_2223
+    description: qof_2223_PREVALENCE_2223
+  - name: regpt_2014_04_gp_reg_patients_04_2014_totals_lsoa_alt
+    description: regpt_2014_04_gp_reg_patients_04_2014_totals_lsoa_alt
+  - name: regpt_2014_07_num_pat_gp_reg_patients_07_2014_tot_lsoa_alt
+    description: regpt_2014_07_num_pat_gp_reg_patients_07_2014_tot_lsoa_alt
+  - name: regpt_2014_10_gp_reg_patients_oct_2014_lsoa_alt_tall
+    description: regpt_2014_10_gp_reg_patients_oct_2014_lsoa_alt_tall
+  - name: regpt_2014_10_gp_sing_year_age
+    description: regpt_2014_10_gp_sing_year_age
+  - name: regpt_2015_01_gp_reg_patients_lsoa_alt_tall
+    description: regpt_2015_01_gp_reg_patients_lsoa_alt_tall
+  - name: regpt_2015_01_gp_sing_year_age
+    description: regpt_2015_01_gp_sing_year_age
+  - name: regpt_2015_04_gp_reg_patients_lsoa_alt_tall
+    description: regpt_2015_04_gp_reg_patients_lsoa_alt_tall
+  - name: regpt_2015_04_gp_sing_year_age
+    description: regpt_2015_04_gp_sing_year_age
+  - name: regpt_2015_07_gp_reg_patients_lsoa_alt_tall
+    description: regpt_2015_07_gp_reg_patients_lsoa_alt_tall
+  - name: regpt_2015_07_gp_sing_year_age
+    description: regpt_2015_07_gp_sing_year_age
+  - name: regpt_2015_10_gp_reg_patients_lsoa_alt_tall
+    description: regpt_2015_10_gp_reg_patients_lsoa_alt_tall
+  - name: regpt_2015_10_gp_reg_patients_prac_sing_year_age
+    description: regpt_2015_10_gp_reg_patients_prac_sing_year_age
+  - name: regpt_2016_01_gp_reg_patients_lsoa_alt_tall
+    description: regpt_2016_01_gp_reg_patients_lsoa_alt_tall
+  - name: regpt_2016_01_gp_reg_patients_prac_sing_year_age
+    description: regpt_2016_01_gp_reg_patients_prac_sing_year_age
+  - name: regpt_2016_04_gp_reg_lsoa_alt_format_tall
+    description: regpt_2016_04_gp_reg_lsoa_alt_format_tall
+  - name: regpt_2016_04_gp_reg_patients_prac_sing_year_age
+    description: regpt_2016_04_gp_reg_patients_prac_sing_year_age
+  - name: regpt_2016_07_gp_reg_lsoa_alt_format_tall_v2
+    description: regpt_2016_07_gp_reg_lsoa_alt_format_tall_v2
+  - name: regpt_2016_07_gp_reg_patients_prac_sing_year_age
+    description: regpt_2016_07_gp_reg_patients_prac_sing_year_age
+  - name: regpt_2016_10_gp_reg_lsoa_alt_format_tall_1610
+    description: regpt_2016_10_gp_reg_lsoa_alt_format_tall_1610
+  - name: regpt_2016_10_gp_reg_patients_prac_sing_year_age
+    description: regpt_2016_10_gp_reg_patients_prac_sing_year_age
+  - name: regpt_2017_01_gp_reg_patients_lsoa_alt_tall
+    description: regpt_2017_01_gp_reg_patients_lsoa_alt_tall
+  - name: regpt_2017_01_gp_reg_patients_prac_sing_year_age
+    description: regpt_2017_01_gp_reg_patients_prac_sing_year_age
+  - name: regpt_2017_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2017_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2017_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2017_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2017_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2017_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2017_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2017_04_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2017_07_gp_reg_pat_prac_lsoa_female
+    description: regpt_2017_07_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2017_07_gp_reg_pat_prac_lsoa_male
+    description: regpt_2017_07_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2017_07_gp_reg_pat_prac_sing_age_female_jul_17
+    description: regpt_2017_07_gp_reg_pat_prac_sing_age_female_jul_17
+  - name: regpt_2017_07_gp_reg_pat_prac_sing_age_male_jul_17
+    description: regpt_2017_07_gp_reg_pat_prac_sing_age_male_jul_17
+  - name: regpt_2017_10_gp_reg_pat_prac_lsoa_female
+    description: regpt_2017_10_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2017_10_gp_reg_pat_prac_lsoa_male
+    description: regpt_2017_10_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2017_10_gp_reg_pat_prac_sing_age_female_oct_17
+    description: regpt_2017_10_gp_reg_pat_prac_sing_age_female_oct_17
+  - name: regpt_2017_10_gp_reg_pat_prac_sing_age_male_oct_17
+    description: regpt_2017_10_gp_reg_pat_prac_sing_age_male_oct_17
+  - name: regpt_2018_01_gp_reg_pat_prac_lsoa_female
+    description: regpt_2018_01_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2018_01_gp_reg_pat_prac_lsoa_male
+    description: regpt_2018_01_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2018_01_gp_reg_pat_prac_sing_age_female_jan_18
+    description: regpt_2018_01_gp_reg_pat_prac_sing_age_female_jan_18
+  - name: regpt_2018_01_gp_reg_pat_prac_sing_age_male_jan_18
+    description: regpt_2018_01_gp_reg_pat_prac_sing_age_male_jan_18
+  - name: regpt_2018_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2018_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2018_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2018_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2018_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2018_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2018_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2018_04_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2018_07_gp_reg_pat_prac_lsoa_female
+    description: regpt_2018_07_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2018_07_gp_reg_pat_prac_lsoa_male
+    description: regpt_2018_07_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2018_07_gp_reg_pat_prac_sing_age_female
+    description: regpt_2018_07_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2018_07_gp_reg_pat_prac_sing_age_male
+    description: regpt_2018_07_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2018_10_gp_reg_pat_prac_lsoa_female_oct_18
+    description: regpt_2018_10_gp_reg_pat_prac_lsoa_female_oct_18
+  - name: regpt_2018_10_gp_reg_pat_prac_lsoa_male_oct_18
+    description: regpt_2018_10_gp_reg_pat_prac_lsoa_male_oct_18
+  - name: regpt_2018_10_gp_reg_pat_prac_sing_age_female_oct_18
+    description: regpt_2018_10_gp_reg_pat_prac_sing_age_female_oct_18
+  - name: regpt_2018_10_gp_reg_pat_prac_sing_age_male_oct_18
+    description: regpt_2018_10_gp_reg_pat_prac_sing_age_male_oct_18
+  - name: regpt_2019_01_gp_reg_pat_prac_lsoa_female
+    description: regpt_2019_01_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2019_01_gp_reg_pat_prac_lsoa_male
+    description: regpt_2019_01_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2019_01_gp_reg_pat_prac_sing_age_female
+    description: regpt_2019_01_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2019_01_gp_reg_pat_prac_sing_age_male
+    description: regpt_2019_01_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2019_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2019_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2019_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2019_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2019_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2019_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2019_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2019_04_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2019_07_gp_reg_pat_prac_lsoa_female
+    description: regpt_2019_07_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2019_07_gp_reg_pat_prac_lsoa_male
+    description: regpt_2019_07_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2019_07_gp_reg_pat_prac_sing_age_female
+    description: regpt_2019_07_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2019_07_gp_reg_pat_prac_sing_age_male
+    description: regpt_2019_07_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2019_10_gp_reg_pat_prac_lsoa_female
+    description: regpt_2019_10_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2019_10_gp_reg_pat_prac_lsoa_male
+    description: regpt_2019_10_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2019_10_gp_reg_pat_prac_sing_age_female
+    description: regpt_2019_10_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2019_10_gp_reg_pat_prac_sing_age_male
+    description: regpt_2019_10_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2020_01_gp_reg_pat_prac_lsoa_female
+    description: regpt_2020_01_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2020_01_gp_reg_pat_prac_lsoa_male
+    description: regpt_2020_01_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2020_01_gp_reg_pat_prac_sing_age_female
+    description: regpt_2020_01_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2020_01_gp_reg_pat_prac_sing_age_male
+    description: regpt_2020_01_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2020_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2020_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2020_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2020_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2020_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2020_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2020_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2020_04_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2020_07_gp_reg_pat_prac_lsoa_female
+    description: regpt_2020_07_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2020_07_gp_reg_pat_prac_lsoa_male
+    description: regpt_2020_07_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2020_07_gp_reg_pat_prac_sing_age_female
+    description: regpt_2020_07_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2020_07_gp_reg_pat_prac_sing_age_male
+    description: regpt_2020_07_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2020_10_gp_reg_pat_prac_lsoa_female
+    description: regpt_2020_10_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2020_10_gp_reg_pat_prac_lsoa_male
+    description: regpt_2020_10_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2020_10_gp_reg_pat_prac_sing_age_female
+    description: regpt_2020_10_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2020_10_gp_reg_pat_prac_sing_age_male
+    description: regpt_2020_10_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2021_01_gp_reg_pat_prac_lsoa_female
+    description: regpt_2021_01_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2021_01_gp_reg_pat_prac_lsoa_male
+    description: regpt_2021_01_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2021_01_gp_reg_pat_prac_sing_age_female
+    description: regpt_2021_01_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2021_01_gp_reg_pat_prac_sing_age_male
+    description: regpt_2021_01_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2021_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2021_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2021_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2021_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2021_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2021_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2021_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2021_04_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2021_07_gp_reg_pat_prac_lsoa_female
+    description: regpt_2021_07_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2021_07_gp_reg_pat_prac_lsoa_male
+    description: regpt_2021_07_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2021_07_gp_reg_pat_prac_sing_age_female
+    description: regpt_2021_07_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2021_07_gp_reg_pat_prac_sing_age_male
+    description: regpt_2021_07_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2021_10_gp_reg_pat_prac_lsoa_female
+    description: regpt_2021_10_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2021_10_gp_reg_pat_prac_lsoa_male
+    description: regpt_2021_10_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2021_10_gp_reg_pat_prac_sing_age_female
+    description: regpt_2021_10_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2021_10_gp_reg_pat_prac_sing_age_male
+    description: regpt_2021_10_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2022_01_gp_reg_pat_prac_lsoa_female
+    description: regpt_2022_01_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2022_01_gp_reg_pat_prac_lsoa_male
+    description: regpt_2022_01_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2022_01_gp_reg_pat_prac_sing_age_female
+    description: regpt_2022_01_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2022_01_gp_reg_pat_prac_sing_age_male
+    description: regpt_2022_01_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2022_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2022_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2022_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2022_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2022_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2022_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2022_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2022_04_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2022_07_gp_reg_pat_prac_lsoa_female
+    description: regpt_2022_07_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2022_07_gp_reg_pat_prac_lsoa_male
+    description: regpt_2022_07_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2022_07_gp_reg_pat_prac_sing_age_female
+    description: regpt_2022_07_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2022_07_gp_reg_pat_prac_sing_age_male
+    description: regpt_2022_07_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2022_10_gp_reg_pat_prac_lsoa_female
+    description: regpt_2022_10_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2022_10_gp_reg_pat_prac_lsoa_male
+    description: regpt_2022_10_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2022_10_gp_reg_pat_prac_sing_age_female
+    description: regpt_2022_10_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2022_10_gp_reg_pat_prac_sing_age_male
+    description: regpt_2022_10_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2023_01_gp_reg_pat_prac_lsoa_female
+    description: regpt_2023_01_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2023_01_gp_reg_pat_prac_lsoa_male
+    description: regpt_2023_01_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2023_01_gp_reg_pat_prac_sing_age_female
+    description: regpt_2023_01_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2023_01_gp_reg_pat_prac_sing_age_male
+    description: regpt_2023_01_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2023_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2023_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2023_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2023_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2023_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2023_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2023_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2023_04_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2023_07_gp_reg_pat_prac_lsoa_female
+    description: regpt_2023_07_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2023_07_gp_reg_pat_prac_lsoa_male
+    description: regpt_2023_07_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2023_07_gp_reg_pat_prac_sing_age_female
+    description: regpt_2023_07_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2023_07_gp_reg_pat_prac_sing_age_male
+    description: regpt_2023_07_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2023_10_gp_reg_pat_prac_lsoa_female
+    description: regpt_2023_10_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2023_10_gp_reg_pat_prac_lsoa_male
+    description: regpt_2023_10_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2023_10_gp_reg_pat_prac_sing_age_female
+    description: regpt_2023_10_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2023_10_gp_reg_pat_prac_sing_age_male
+    description: regpt_2023_10_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2024_01_gp_reg_pat_prac_lsoa_female
+    description: regpt_2024_01_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2024_01_gp_reg_pat_prac_lsoa_male
+    description: regpt_2024_01_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2024_01_gp_reg_pat_prac_sing_age_female
+    description: regpt_2024_01_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2024_01_gp_reg_pat_prac_sing_age_male
+    description: regpt_2024_01_gp_reg_pat_prac_sing_age_male
+  - name: regpt_2024_04_gp_reg_pat_prac_lsoa_female
+    description: regpt_2024_04_gp_reg_pat_prac_lsoa_female
+  - name: regpt_2024_04_gp_reg_pat_prac_lsoa_male
+    description: regpt_2024_04_gp_reg_pat_prac_lsoa_male
+  - name: regpt_2024_04_gp_reg_pat_prac_sing_age_female
+    description: regpt_2024_04_gp_reg_pat_prac_sing_age_female
+  - name: regpt_2024_04_gp_reg_pat_prac_sing_age_male
+    description: regpt_2024_04_gp_reg_pat_prac_sing_age_male

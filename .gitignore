@@ -1,0 +1,12 @@
+# ignore dbt files
+target/
+dbt_packages/
+logs/
+
+# ignore database files
+*.db
+*.duckdb
+*.wal
+
+# ignore everything in data directory
+/data/
