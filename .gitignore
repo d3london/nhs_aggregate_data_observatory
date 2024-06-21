@@ -1,3 +1,5 @@
+.vscode
+
 # ignore dbt files
 target/
 dbt_packages/
