@@ -12,3 +12,6 @@ logs/
 
 # ignore everything in data directory
 /data/
+
+# Ignore local settings
+.user.yml
