@@ -48,7 +48,8 @@ dbt compile
 dbt build
 ```
 ### Data Loading
-load_data.py will parse and load all CSV files within a directory, as tables in a specified schema in duckdb.
+load_data.py will parse and load all CSV files within a directory, into tables within a specified schema in duckdb.
+sample_chars defines how many characters to parse for robust loading with encoding/delimiter detection. 
 ```
 python load_data.py <database_path> <data_directory> <schema_name> <sample_chars>
 ```
