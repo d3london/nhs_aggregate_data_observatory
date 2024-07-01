@@ -1,0 +1,7 @@
+nhs_aggregate_data_observatory:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'nhs_agg_data.duckdb'
+      threads: 1
